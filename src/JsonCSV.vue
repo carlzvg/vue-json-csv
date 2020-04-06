@@ -68,7 +68,7 @@ export default {
      */
     advancedOptions: {
       type: Object,
-      default: () => {}
+      default: function () {}
     },
     /**
      * Labels for columns
